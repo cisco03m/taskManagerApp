@@ -1,74 +1,106 @@
-<<<<<<< HEAD
-# taskManagerApp
-=======
-# Getting Started with Create React App
+**Basic Task Manager in React**
+Objective
+This project is a simple Task Manager built with React where users can:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Add tasks by typing into an input field and clicking "Add Task".
+View the list of added tasks.
+Delete a task from the list.
+This app is designed to give you a hands-on introduction to React components, states, and props.  
 
-## Available Scripts
+**Requirements**
+Add Tasks:
+Users can type a task into an input field and click the "Add Task" button to add it to the list.
+View Tasks:
+The app displays a list of all added tasks below the input field.
+Delete Tasks:
+Each task has a Delete button that allows users to remove it from the list.
 
-In the project directory, you can run:
+**Installation**
+Clone the repository:
 
-### `npm start`
+bash
+Copy code
+git clone https://github.com/cisco03m/taskManagerApp.git
+Navigate to the project directory and install dependencies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy code
+cd task-manager
+npm install
+Run the application:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+npm start
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Here’s a README for your Basic Task Manager in React:
 
-### `npm run build`
+Basic Task Manager in React
+Objective
+This project is a simple Task Manager built with React where users can:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Add tasks by typing into an input field and clicking "Add Task".
+View the list of added tasks.
+Delete a task from the list.
+This app is designed to give you a hands-on introduction to React components, state, and props.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Requirements
+Add Tasks:
+Users can type a task into an input field and click the "Add Task" button to add it to the list.
+View Tasks:
+The app displays a list of all added tasks below the input field.
+Delete Tasks:
+Each task has a Delete button that allows users to remove it from the list.
+Suggested Workflow
+1. Set Up the Project
+Use create-react-app to set up the React project.
+bash
+Copy code
+npx create-react-app task-manager
+Start the development server:
+bash
+Copy code
+cd task-manager
+npm start
+Open the project in a code editor like VS Code.
+2. Build the App Step-by-Step
+Create Components:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Create a component for adding tasks (e.g., TaskInput).
+Create a component to display the list of tasks (e.g., TaskList).
+Use React State:
 
-### `npm run eject`
+Use state to manage the list of tasks.
+Store tasks in an array and update the state when tasks are added or deleted.
+Implement Functionality:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Add Tasks: Implement functionality that adds a task to the list when the "Add Task" button is clicked.
+Delete Tasks: Implement a delete button for each task to remove it from the list.
+3. Style the App
+Use basic CSS to improve the appearance of the app.
+Installation
+Clone the repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+bash
+Copy code
+git clone https://github.com/cisco03m/taskManagerApp.git
+Navigate to the project directory and install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+bash
+Copy code
+cd task-manager
+npm install
+Run the application:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+bash
+Copy code
+npm start
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> f7bc097 (Initial commit for new repository)
+**Example**
+Add a task: Type "Learn React" into the input field and click Add Task.
+View tasks: The task will be displayed in the list.
+Delete a task: Click the Delete button next to a task to remove it from the list.
+Technologies Used
+React: For building the user interface.
+CSS: For styling the app.
